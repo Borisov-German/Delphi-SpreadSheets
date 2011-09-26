@@ -1,0 +1,16 @@
+Change of idenificators
+
+uSpreadsheets.pas	UHojaCalc.pas
+uSpreadsheets	UHojaCalc
+TSpreadSheetType	TTipoHojaCalc
+sstError	thcError
+sstNone	thcNone
+sstExcel	thcExcel
+sstOpenOffice	thcOpenOffice
+
+TSpreadSheet	THojaCalc
+SheetSoftware	Programa
+GetActiveSheetProtected	IsActiveSheetProtected
+SetVisible(Value: Boolean)	SetVisible(v: boolean)
+SetCellText(Row, Col: Integer; Value: String)	SetCellText(row,col: integer; Txt: string)
+SetCellTextByName(Range: String; Value: String	SetCellTextByName(Range: string; Txt: string)
